@@ -1,0 +1,30 @@
+{
+  "name": "xyz-bot",
+  "version": "1.0.5",
+  "description": "Powerfull Modern WhatsApp BOT",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "sh start.sh",
+    "lint": "eslint '*/**/*.{ts,tsx}' --quiet --fix",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run lint"
+  },
+  "author": "ItzNgga",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.16",
+    "@types/fs-extra": "^9.0.8",
+    "@types/node": "^14.14.37", 
+    "@types/node-fetch": "^2.5.8",
+    "@types/sharp": "^0.27.1",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  }
+}
