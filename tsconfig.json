@@ -20,8 +20,6 @@
   "include": [
     "src/**/*.ts",
     "index.ts",
-    "types**/*.ts",
-    "nsfw_model"
   ],
-  "exclude": ["node_modules","temp", "sticker", "json", "image", "groups", "gif", "fonts", "cloud"]
+  "exclude": ["node_modules"]
 }
